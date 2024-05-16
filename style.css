@@ -42,7 +42,7 @@ header nav div a img {
 /* SECTOR SOBRE MI */
 .home-intro {
     align-items: center;
-    background-image: linear-gradient(to right bottom, rgba(5, 8, 16, .6), rgba(5, 8, 16, .6)), url(/img/galaxiahomeintro.svg);
+    background-image: linear-gradient(to right bottom, rgba(5, 8, 16, .6), rgba(5, 8, 16, .6)), url(./img/galaxiahomeintro.svg);
     background-position: top;
     display: flex;
     height: 74vh;
