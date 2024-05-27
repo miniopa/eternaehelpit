@@ -30,7 +30,7 @@ let str = text.innerHTML;
 text.innerHTML = "";
 
 //Declaramos una varible en la que asignaremos un valor para que sea el tiempo en ms que durará la función setTimeout
-const speed = 120;
+const speed = 60;
 let i = 0;
 
 //Esta función recorre todos los caracteres nuestro texto

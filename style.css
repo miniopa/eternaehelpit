@@ -42,7 +42,7 @@ header nav div a img {
 /* SECTOR SOBRE MI */
 .home-intro {
     align-items: center;
-    background-image: linear-gradient(to right bottom, rgba(5, 8, 16, .6), rgba(5, 8, 16, .6)), url(./img/galaxiahomeintro.svg);
+    background-image: linear-gradient(to right bottom, rgba(5, 8, 16, .6), rgba(5, 8, 16, .6)), url(/img/galaxiahomeintro.svg);
     background-position: top;
     display: flex;
     height: 74vh;
@@ -267,8 +267,68 @@ footer nav div a img {
 
 /* Media queries para dispositivos móviles */
 
+@media (max-width: 768px) {
+    .home-intro {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .parrafo1 h1 {
+        font-size: 1.5rem;
+        margin-top: 100px;
+        margin-left: 0px !important; 
+        text-align: center;
+    }
+
+
+    .icon-hacker img {
+        width: 40rem;
+        margin: 0px !important;
+    }
+
+    .icon-hacker lord-icon {
+        top: 15rem;
+        right: 3rem;
+    }
+
+    .home-servicios {
+        font-size: 18px;
+        margin: 50px 20px;
+    }
+
+    .title-servicios h2 {
+        font-size: 1.5rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .texto-servicios h2 {
+        font-size: 24px;
+    }
+
+    .texto-servicios p {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .imagen-borrosa {
+        height: 50vh;
+    }
+
+    .texto-superpuesto {
+        font-size: 8px;
+    }
+}
+
 /* Estilos para pantallas de hasta 576px de ancho */
 @media (max-width: 576px) {
+
+    .home-intro {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
     .titulo-header-web {
         font-size: 1.5rem;
         /* Reducir el tamaño del título en el encabezado */
@@ -281,15 +341,6 @@ footer nav div a img {
         /* Ajustar el margen de las imágenes de redes sociales */
     }
 
-    .icon-hacker {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        /* Divide el espacio en dos columnas */
-        gap: 20px;
-        /* Espacio entre las columnas */
-        align-items: center;
-        /* Alinea los elementos verticalmente */
-    }
 
     .icon-hacker img {
         width: 100%;
@@ -327,34 +378,131 @@ footer nav div a img {
 }
 
 
-@media (min-width: 768px) {
-    .titulo-header-web {
-        font-size: 2rem;
-        /* Ajustar el tamaño del título en el encabezado */
-    }
 
+
+@media (max-width: 480px) {
+
+    /*header*/
+
+    .titulo-header-web{
+        font-size: 10px !important;
+        text-align: center;
+    }
+    header nav div a img {
+        width: 70px;
+        border-radius: 100px;
+    }
     .redes a img {
-        width: 40px;
-        /* Ajustar el tamaño de las imágenes de redes sociales */
-        margin: 10px;
-        /* Ajustar el margen de las imágenes de redes sociales */
+    margin: 1px;
+}
+
+    /*HOME*/
+    .home-intro {
+        padding: 20px;
+    }
+
+    .parrafo1 h1 {
+        font-size: 1.2rem;
+        margin-left: 10px;
+    }
+
+    .icon-hacker {
+        display: flex;
+    }
+
+    .icon-hacker lord-icon {
+        display: none;
+    }
+
+    /*servicios*/
+
+    .home-servicios {
+        font-size: 16px;
+        margin: 20px 10px;
+    }
+
+    .title-servicios h2 {
+        font-size: 1.2rem;
+        padding: 0.3rem 0.5rem;
+    }
+
+    .texto-servicios h2 {
+        font-size: 20px;
+    }
+
+    .texto-servicios p {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    /*Proyecto*/
+
+    .imgtext-proyecto {
+        width: 80vw;
+    }
+
+    .imagen-borrosa {
+        height: 60vh;
+    }
+
+    .texto-superpuesto h1 {
+        font-size: 20px;
+    }
+}
+
+/*
+
+@media (max-width: 768px) {
+    .home-intro {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .parrafo1 h1 {
+        font-size: 1.5rem;
+        margin-top: 100px;
+        margin-left: 0px !important; 
+        text-align: center;
     }
 
 
+    .icon-hacker img {
+        width: 40rem;
+        margin: 0px !important;
+    }
 
+    .icon-hacker lord-icon {
+        top: 15rem;
+        right: 3rem;
+    }
+
+    .home-servicios {
+        font-size: 18px;
+        margin: 50px 20px;
+    }
+
+    .title-servicios h2 {
+        font-size: 1.5rem;
+        padding: 0.5rem 1rem;
+    }
 
     .texto-servicios h2 {
         font-size: 24px;
-        /* Ajustar el tamaño del título de servicios */
     }
 
     .texto-servicios p {
         font-size: 18px;
-        /* Ajustar el tamaño del texto de servicios */
+        padding: 10px;
     }
 
-    .animate-text::after {
-        font-size: 3.5rem;
-        /* Ajustar el tamaño del cursor del texto animado */
+    .imagen-borrosa {
+        height: 50vh;
+    }
+
+    .texto-superpuesto {
+        font-size: 8px;
     }
 }
+
+*/
