@@ -173,6 +173,7 @@ p {
 
 .about-txt {
     flex-basis: 50%;
+    text-align: center;
 }
 
 h2 {
@@ -304,6 +305,19 @@ h2 {
 
 .link a:hover {
     color: #687cef;
+}
+
+.nadie-latiene {
+    color: #ffffff  ;
+}
+
+.footer-content{
+    align-items: center;
+    text-align: center;
+}
+
+.footer-content .link ul li a img{
+    width: 60px;
 }
 
  @media(max-width:991px) {
