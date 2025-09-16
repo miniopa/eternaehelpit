@@ -1,2 +1,2 @@
-# eternaehelpit
-Mi web personal
+# Eternae-IT
+Web personal | Empresa
